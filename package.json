@@ -9,7 +9,18 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test"
   },
-  "engines": { "node": ">=22.12.0" },
-  "dependencies": { "vue": "^3.5.0", "jszip": "^3.10.1" },
-  "devDependencies": { "vite": "^7.0.0", "@vitejs/plugin-vue": "^6.0.0", "jsdom": "^26.0.0" }
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "jsdom": "^26.0.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^7.0.0"
+  }
 }

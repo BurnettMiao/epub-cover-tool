@@ -36,9 +36,10 @@ npm run preview   # 預覽建置結果；先執行 build
 
 ## 檔案結構
 
-- `src/App.vue`：Vue 介面、檔案選擇、拖放、預覽、下載及狀態管理。
+- `src/App.vue`：檔案選擇、拖放、預覽、下載及狀態管理。
+- `src/components/`：`AppHeader`、`HeroSection`、`EditorPanel`、`FileDropZone`、`PreviewPanel`、`InfoNotes`、`AppFooter` 等可重用介面元件。
 - `src/lib/epub.js`：EPUB 解壓縮、XML 更新、封面頁製作、重新封裝。
-- `src/style.css`：桌面與手機版樣式。
+- `src/style.css`：Tailwind CSS 匯入、主題色與少量書封預覽自訂樣式。
 - `src/main.js`：Vue 進入點。
 - `tests/epub.test.js`：EPUB 2／3、舊封面替換、重複替換、章節保留及 DRM 檢查。
 - `vite.config.js`：Vue 外掛及相對資源路徑。
