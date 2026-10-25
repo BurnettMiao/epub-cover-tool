@@ -16,5 +16,4 @@
 
 @layer utilities {
   .book-spine { box-shadow: 12px 17px 22px #28332325, -2px 0 0 #a6b3a0; }
-  .book-spine::after { content: ''; position: absolute; left: 5px; top: 0; bottom: 0; width: 3px; background: #0000000c; pointer-events: none; }
 }
